@@ -3,6 +3,12 @@ const button = document.getElementById("openModal")
 
 const modalWrapper = document.querySelector('.modal-wrapper')
 
+const voltar = document.getElementById('voltar')
+
+voltar.onclick = function() {
+    modalWrapper.classList.add('invisible')
+    
+}
 button.onclick = function() {
     modalWrapper.classList.remove('invisible')
 }
@@ -23,7 +29,7 @@ user.onkeyup = function teste (event) {
     if(username == 'igor'){
         console.log('Usuario correto!')
     }
-    
+
     else {
         console.log('Usuário incorreto, tente novamente!')
     }

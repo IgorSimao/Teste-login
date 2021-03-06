@@ -20,3 +20,13 @@ input{
     color: gray;
     
 }
+
+#voltar{
+    width: 15px;
+    height: 15px;
+}
+
+#voltar:hover{
+    border:2px solid white;
+    transition: 0.3s;
+}
