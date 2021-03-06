@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Desafio Discover</title>
+</head>
+<body class="h-screen bg-purple-100 flex flex-col items-center justify-center">
+    <button id="openModal" class="bg-blue-600 text-white py-2 px-4 rounded">
+        Clique para fazer Login
+    </button>
+
+    <div class="modal-wrapper invisible fixed bg-gray-500 w-screen h-screen flex items-center justify-center">
+        <div class="p-8 bg-white text-center rounded">
+            <h2>Tecle ESC para fechar </h2>
+            <br>
+            Faça o Login
+            <br>
+            <br>
+            <input id="user" type="text" class="bg-gray-100 justify-center flex" placeholder="Username">
+            <br>
+            <input id="pass" type="password" class="bg-gray-100 justify-center flex" placeholder="Senha">
+            <br>
+            <button id="btn" class="bg-blue-600 text-white py-2 px-4 rounded"> Entrar</button>
+            <br>
+            <br>
+            <a href="#" id="cadastrar"> Cadastre-se </a>
+        </div>
+
+    </div>
+    <script src="./modal.js"></script>
+</body>
+</html>

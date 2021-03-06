@@ -1,0 +1,22 @@
+#btn {
+    outline: none;
+    
+}
+#btn:hover{
+    background-color: rgb(16, 16, 206);
+}
+#openModal{
+    outline: none;
+    
+}
+#openModal:hover{
+    background-color: rgb(16, 16, 206);
+}
+input{
+    outline: none;
+}
+
+#cadastrar:hover{
+    color: gray;
+    
+}
